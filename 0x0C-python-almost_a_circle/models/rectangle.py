@@ -18,7 +18,7 @@ class Rectangle(Base):
 
     @property
     def width(self):
-        """getter od width"""
+        """getter of width"""
         return self.__width
 
     @property
@@ -75,6 +75,7 @@ class Rectangle(Base):
     def area(self):
         """calculates the area of the rectangle"""
         return self.__width * self.__height
+
     def display(self):
         """print a display of the rectangle"""
         print(("\n" * self.__y) +
@@ -88,6 +89,7 @@ class Rectangle(Base):
                                                                  self.__y,
                                                                  self.__width,
                                                                  self.__height)
+
     def update(self, *args, **kwargs):
         """updates multiple attributes"""
         if len(args):
@@ -123,3 +125,4 @@ class Rectangle(Base):
         d["x"] = self.x
         d["y"] = self.y
         return d
+        

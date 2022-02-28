@@ -2,6 +2,10 @@
 """
 This module contains the "Base" class
 """
+
+import csv
+import json 
+
 class Base:
     """A base class"""
     __nb_objects = 0
@@ -13,8 +17,8 @@ class Base:
             self.id = self.__nb_objects
         else:
             self.id = id
-'''
-" @staticmethod
+
+    @staticmethod
     def to_json_string(list_dictionaries):
         """returns the JSON string representation of a list of dictionaries"""
         if list_dictionaries is None:
@@ -227,4 +231,4 @@ class Base:
             turtle.right(90)
 
         turtle.getscreen()._root.mainloop()
-       ''' 
+       
