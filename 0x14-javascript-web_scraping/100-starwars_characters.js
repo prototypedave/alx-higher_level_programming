@@ -9,8 +9,8 @@ function filmcharacters (film, url) {
     } else if (response.statusCode === 200) {
       const jsonobj = JSON.parse(body);
       const people = jsonobj.results;
-      for (let i in people) {
-        for (let j in people[i].films) {
+      for (const i in people) {
+        for (const j in people[i].films) {
           if (people[i].films[j].includes(film)) {
             console.log(people[i].name);
           }
