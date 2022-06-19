@@ -1,4 +1,4 @@
-#!/usr/bin/pythoni3
+#!/usr/bin/python3
 """ 
 contains the function inherits_from
 """
