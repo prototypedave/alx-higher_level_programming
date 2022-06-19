@@ -3,7 +3,6 @@
 Contains the class BaseGeometry and subclass Rectangle
 """
 
-
 class BaseGeometry:
     """A class with public instance methods area and integer_validator"""
     def area(self):
