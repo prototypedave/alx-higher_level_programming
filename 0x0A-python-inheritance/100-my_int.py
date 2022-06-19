@@ -3,6 +3,7 @@
 Contains the class MyInt
 """
 
+
 class MyInt(int):
     """rebel version of an integer, perfect for opposite day!"""
     def __new__(cls, *args, **kwargs):
